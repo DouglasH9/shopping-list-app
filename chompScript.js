@@ -1,10 +1,11 @@
 $(document).ready(function() {
 	
+	var check = 
 	
 	$('#button').click(function() {
 		console.log ('hello');
 		var itemAdd = $('input[name=listItems]').val()
-		$("#list").prepend('<div class="item">' + itemAdd + '</div>')
+		$("#goods").prepend('<li class="item">' + itemAdd + '</li>')
 
 	});
 
@@ -12,9 +13,11 @@ $(document).ready(function() {
 		if(event.which == 13) {
 			console.log ("enter was pressed");
 			var itemAdd = $('input[name=listItems]').val()
-			$('#list').prepend('<div class="item">' + itemAdd + '</div>')
+			$('#goods').prepend('<li class="item"><div class="ecks"></div>' + itemAdd + '<div class="check"></div></li>')
 		};
+	});
 
-
+	$('.ecks').click(function(){
+		$(this).remove('.item')
 	});
 });
