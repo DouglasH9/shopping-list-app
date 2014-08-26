@@ -1,0 +1,128 @@
+/**
+ * Eric Meyer's Reset CSS v2.0 (http://meyerweb.com/eric/tools/css/reset/)
+ * http://cssreset.com
+ */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* end of reset*/
+
+* {
+
+	/*outline: 2px solid black;*/
+}
+
+body {
+	background-image: url("images/kirbyEating.gif");
+	background-repeat:no-repeat;
+	background-size:100%;
+}
+
+.head {
+	height: 250px;
+}
+
+h2 {
+	text-align:center;
+	font-family:Arial, sans-serif;
+	font-size: 42px;
+	margin-top:18px;
+}
+
+p {
+	text-align: center;
+	font-family: Arial, sans-serif;
+	font-size: 30px;
+	margin-top:40px;
+}
+
+#container {
+	bottom: 0;
+}
+
+#list {
+	width:570px;
+	height:666px;
+	margin-left: auto;
+	margin-right: auto;
+	background-image:url("images/legalPad.png");
+	background-repeat: no-repeat;
+	background-size:700px, 670px;
+	opacity:.90;
+}
+#textForm {
+	width:310px;
+	height:40px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 50px;
+
+}
+
+#pacman {
+	border-radius: 8px;
+	padding-left: 24px;
+	padding-top:3px;
+	vertical-align: middle;
+	display:block;
+	float:left;
+}
+#listInput {
+	display:block;
+	float:left;
+	font-family:Arial, sans-serif;
+	line-height: 1.55;
+	font-size: 20px;
+	border-radius:12px;
+	background: linear-gradient(135deg, #d0e4f7 47%,#85b0d3 84%,#539fe1 100%,#87bcea 100%);
+
+}
+
+.item {
+	height:20px;
+	width:50px;
+	font-size:16px;
+	font-family: cursive, Ariel, sans-serif;
+	background-color:yellow;
+
+}
