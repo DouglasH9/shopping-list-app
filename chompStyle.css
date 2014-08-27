@@ -121,10 +121,10 @@ p {
 }
 
 #pacman {
-	
+	position:relative;
 	border-radius: 8px;
 	padding-left: 24px;
-	top:-5px;
+	top:1px;
 	vertical-align: middle;
 	display:block;
 	float:left;

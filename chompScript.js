@@ -3,11 +3,9 @@ $(document).ready(function() {
 	var xMark = '<span class="xMark"></span>'
 	var checkMark = '<span class="checkMark"></span>'
 
-//animates pacman
-	$('#pacman').mouseenter(function() {
-		$('#pacman').animate({'width':'12%'},200);
-		
-	});
+$('#pacman').hover(function(){
+	$(this).css('cursor','pointer')
+})
 
 //adds item	on button click
 	$('#button').click(function() {
