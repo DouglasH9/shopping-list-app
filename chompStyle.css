@@ -99,7 +99,7 @@ p {
 
 #list {
 	position:relative;
-	min-width:700px;
+	width:700px;
 	min-height:900px;
 	margin-left: auto;
 	margin-right: auto;
