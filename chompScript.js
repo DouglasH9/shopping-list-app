@@ -36,6 +36,7 @@ $('#pacman').hover(function(){
 				}
 		};
 	});
+	
 //checks off or unchecks list items
 	$(document).on('click' , '.xMark', function(){
 		$(this).closest('li').fadeOut('fast')
