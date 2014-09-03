@@ -7,6 +7,9 @@ $('#pacman').hover(function(){
 	$(this).css('cursor','pointer')
 })
 
+$('h2').fadeIn(1200)
+$('p').fadeIn(1200)
+
 //adds item	on button click
 	$('#button').click(function() {
 		console.log ('hello');
