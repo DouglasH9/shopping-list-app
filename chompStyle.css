@@ -112,6 +112,7 @@ p {
 	padding:60px;
 	bottom:0;
 	opacity:.95;
+	overflow:auto;
 }
 #textForm {
 	width:310px;
