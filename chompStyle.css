@@ -158,6 +158,7 @@ p {
 	margin-right: auto;
 	margin-left:auto;
 	text-align: center;
+	overflow: auto;
 
 }
 
@@ -191,4 +192,5 @@ p {
 
 li {
 	padding:5px;
+
 }
